@@ -2,17 +2,17 @@ public class Homework4 {
 
       public static void main(String[] args) {
 
-      // First part of HW4 - Variables
+        //    First part of HW4 - Variables
 
-      int tni = 1;
-      float taolf = 10.21234f;
-      String gnirtS = "Assalam aleikum";
+        int tni = 1;
+        float taolf = 10.21234f;
+        String gnirtS = "Assalam aleikum";
         System.out.println(tni);
         System.out.println(taolf);
         System.out.println(gnirtS);
 
-      //Second part of HW4 -Class method(function) creating and calling
-        // // Item A
+        //   Second part of HW4 -Class method(function) creating and calling
+        //   Item A
 
         System.out.print("hello ");
         System.out.print("hello ");
@@ -20,7 +20,8 @@ public class Homework4 {
         System.out.print("hello ");
         System.out.print("hello ");
 
-        // // Item B
+        //   Item B
+
         System.out.println("");
 
         for (int i = 1; i <=5 ; i++ ) {
@@ -28,7 +29,9 @@ public class Homework4 {
 
         System.out.println("");
 
-      // Thirt part of HW4 -task about leap-year. Full version with for any year
+
+          // Thirt part of HW4 -task about leap-year.
+          //Full version with for any year
 
       int a = 1999;
      while (a <= 2001) {
@@ -50,7 +53,20 @@ public class Homework4 {
       a+=1;
     }
 
- } // relate to main
+            // Fourth part of HW4 -task about unlimited loop
+
+        int b = 99;
+        do {
+          System.out.println("It seems that I'm here forever");
+          if (b < 0) {
+            break;
+          }
+            b-=33;
+        } while (true);
+
+ } // RELATE TO MAIN
+
+  // Thirt part of HW4 -task about leap-year. Continue
 
   public static boolean notLeapYear (int num) {
     return num % 4 != 0 || num % 100 == 0;
@@ -61,4 +77,4 @@ public class Homework4 {
     return num % 400 == 0;
   }
 
-} // relate to Homework4
+} // RELATE TO Homework4
