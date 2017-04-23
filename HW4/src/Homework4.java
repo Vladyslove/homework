@@ -36,7 +36,9 @@ public class Homework4 {
 
           // Thirt part of HW4 -task about leap-year.
           //Full version with for any year
-
+          System.out.println();
+          System.out.println("Part 3");
+          System.out.println();
       int a = 1999;
      while (a <= 2001) {
 
@@ -58,7 +60,9 @@ public class Homework4 {
     }
 
             // Fourth part of HW4 -task about unlimited loop
-
+            System.out.println();
+            System.out.println("Part 4");
+            System.out.println();
         int b = 99;
         do {
           System.out.println("It seems that I'm here forever");
@@ -72,6 +76,9 @@ public class Homework4 {
 
         // RELATE to 2 part of HW4
         //   Item A
+        System.out.println();
+        System.out.println("Part 2");
+        System.out.println();
         Homework4.OutputString();
         Homework4.OutputString();
         Homework4.OutputString();
