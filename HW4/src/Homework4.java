@@ -1,9 +1,10 @@
 public class Homework4 {
 
+
+
       public static void main(String[] args) {
 
         //    First part of HW4 - Variables
-
         int tni = 1;
         float taolf = 10.21234f;
         String gnirtS = "Assalam aleikum";
@@ -14,20 +15,23 @@ public class Homework4 {
         //   Second part of HW4 -Class method(function) creating and calling
         //   Item A
 
-        System.out.print("hello ");
-        System.out.print("hello ");
-        System.out.print("hello ");
-        System.out.print("hello ");
-        System.out.print("hello ");
+            // WRONG, WRONG and one more time WRONG
+        // System.out.print("hello ");
+        // System.out.print("hello ");
+        // System.out.print("hello ");
+        // System.out.print("hello ");
+        // System.out.print("hello ");
 
+
+        // WRONG, WRONG and one more time WRONG
         //   Item B
 
-        System.out.println("");
-
-        for (int i = 1; i <=5 ; i++ ) {
-            System.out.print("hello "); }
-
-        System.out.println("");
+        // System.out.println("");
+        //
+        // for (int i = 1; i <=5 ; i++ ) {
+        //     System.out.print("hello "); }
+        //
+        // System.out.println("");
 
 
           // Thirt part of HW4 -task about leap-year.
@@ -64,7 +68,32 @@ public class Homework4 {
             b-=33;
         } while (true);
 
+
+
+        // RELATE to 2 part of HW4
+        //   Item A
+        Homework4.OutputString();
+        Homework4.OutputString();
+        Homework4.OutputString();
+        Homework4.OutputString();
+        Homework4.OutputString();
+
+
+          //   Item B
+          System.out.println();
+          System.out.println("Compare line above and below this line. They must be equal.");
+
+
+        for (int c = 1; c <= 5 ;c++ ) {
+          Homework4.OutputString();
+        }
+
  } // RELATE TO MAIN
+
+    // RELATE to 2 part of HW4
+    static void OutputString () {
+      System.out.print("Hi ");
+    }
 
   // Thirt part of HW4 -task about leap-year. Continue
 
